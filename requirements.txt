@@ -1,0 +1,11 @@
+streamlit
+torch
+transformers
+joblib
+pymupdf
+huggingface-hub
+scikit-learn==1.6.1
+pandas
+numpy
+nltk
+matplotlib
