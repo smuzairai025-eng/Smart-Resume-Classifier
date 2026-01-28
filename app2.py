@@ -15,7 +15,7 @@ st.set_page_config(page_title="Smart Resume Classifier", page_icon="📄")
 
 # ================== Model Paths ==================
 MODEL_NAME = "uzairkhanswatii/Smart-Resume-Classifier"  # HF Hub model repo
-LABEL_ENCODER_URL = "https://raw.githubusercontent.com/Uzairkhanswatii/Smart-Resume-Classifier/main/label_encoder.json"
+LABEL_ENCODER_URL = "https://raw.githubusercontent.com/smuzairai025-eng/Smart-Resume-Classifier/main/label_encoder.json"
 
 # ================== Load Model & Tokenizer ==================
 @st.cache_resource
@@ -299,6 +299,6 @@ Built by **Uzair Khan — ML Engineer**
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown(
     "<center>Built by Uzair Khan — ML Engineer | 🔗 "
-    "<a href='https://github.com/Uzairkhanswatii'>GitHub</a></center>",
+    "<a href='https://github.com/smuzairai025-eng'>GitHub</a></center>",
     unsafe_allow_html=True,
 )
