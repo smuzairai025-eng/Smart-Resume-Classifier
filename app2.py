@@ -14,8 +14,8 @@ import time
 st.set_page_config(page_title="Smart Resume Classifier", page_icon="📄")
 
 # ================== Model Paths ==================
-MODEL_NAME = "uzairkhanswatii/Smart-Resume-Classifier"  # HF Hub model repo
-LABEL_ENCODER_URL = "https://raw.githubusercontent.com/smuzairai025-eng/Smart-Resume-Classifier/main/label_encoder.json"
+MODEL_NAME = "uzairkhanswa/Smart-Resume-Classifier"  # HF Hub model repo
+LABEL_ENCODER_URL = "https://raw.githubusercontent.com/smuzairai025/Smart-Resume-Classifier/main/label_encoder.json"
 
 # ================== Load Model & Tokenizer ==================
 @st.cache_resource
