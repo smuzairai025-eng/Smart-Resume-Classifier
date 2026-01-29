@@ -278,13 +278,13 @@ The Smart Resume Classifier analyzes resume text and predicts the most relevant 
 elif page == "Contact / Feedback":
     st.title("📬 Contact & Feedback")
 
-    st.markdown(
-        """
-Built by **Uzair Khan — ML Engineer**  
+#     st.markdown(
+#         """
+# Built by **Uzair Khan — ML Engineer**  
 
-📧 Email: Uzairkhan242002@gmail.com
-        """
-    )
+# 📧 Email: Uzairkhan242002@gmail.com
+#         """
+#     )
 
     st.subheader("Feedback Form")
     feedback = st.text_area("Share your feedback or suggestions:")
@@ -296,9 +296,9 @@ Built by **Uzair Khan — ML Engineer**
             st.warning("⚠️ Please enter some feedback before submitting.")
 
 # ================== Footer ==================
-st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown(
-    "<center>Built by Uzair Khan — ML Engineer | 🔗 "
-    "<a href='https://github.com/smuzairai025-eng'>GitHub</a></center>",
-    unsafe_allow_html=True,
-)
+# st.markdown("<hr>", unsafe_allow_html=True)
+# st.markdown(
+#     "<center>Built by Uzair Khan — ML Engineer | 🔗 "
+#     "<a href='https://github.com/smuzairai025-eng'>GitHub</a></center>",
+#     unsafe_allow_html=True,
+# )
