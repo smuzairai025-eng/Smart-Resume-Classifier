@@ -296,9 +296,9 @@ elif page == "Contact / Feedback":
             st.warning("⚠️ Please enter some feedback before submitting.")
 
 # ================== Footer ==================
-# st.markdown("<hr>", unsafe_allow_html=True)
-# st.markdown(
-#     "<center>Built by Uzair Khan — ML Engineer | 🔗 "
-#     "<a href='https://github.com/smuzairai025-eng'>GitHub</a></center>",
-#     unsafe_allow_html=True,
-# )
+st.markdown("<hr>", unsafe_allow_html=True)
+st.markdown(
+    "<a href='https://github.com/smuzairai025-eng'>GitHub</a></center>",
+    unsafe_allow_html=True,
+)
+# "<center>Built by Uzair Khan — ML Engineer | 🔗 "
