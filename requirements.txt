@@ -1,6 +1,7 @@
 streamlit
 torch
-transformers
+transformers>=4.35.0
+tokenizers>=0.15.0
 joblib
 pymupdf
 huggingface-hub
